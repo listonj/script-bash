@@ -1,0 +1,251 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "4c1bd1a6-1399-4329-a29c-edb21a4a00cb",
+   "metadata": {},
+   "source": [
+    "# Funciones BASH"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "e959c72e-6e0c-4c9e-b7ab-d0d6ad58ca39",
+   "metadata": {},
+   "source": [
+    "## Sintaxis"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f83ede66-b121-4d97-b09a-93c6ec6f7a41",
+   "metadata": {},
+   "source": [
+    "' nombre_funcion(){\n",
+    "    instrucciones\n",
+    "}'"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2e3eb695-a8e2-4261-ab40-e49d2a381bb1",
+   "metadata": {},
+   "source": [
+    "### Ejemplo"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "e3dd1d9e-71cf-4080-8f14-d3e82163da77",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hola Mundo\n"
+     ]
+    }
+   ],
+   "source": [
+    "mi_primera_funcion(){\n",
+    "    echo Hola Mundo\n",
+    "}\n",
+    "mi_primera_funcion"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "2fb210bd-4c0a-48c1-9049-982266d674ff",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hola\n"
+     ]
+    }
+   ],
+   "source": [
+    "echo hola"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "04d0d1ce-64ce-41b0-8b11-114dda0bfbce",
+   "metadata": {},
+   "source": [
+    "### titulo"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "12ff2f47-a8bc-4d60-970d-4ab2923d6b97",
+   "metadata": {},
+   "source": [
+    "esto es una prueba    de salto de linea\n",
+    "\n",
+    "para que veas"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5a187a56-b766-419b-b820-c891ba9e2f91",
+   "metadata": {},
+   "source": [
+    "probaando  \n",
+    "vaya preuba  \n",
+    "y sin darle a los espacios\n",
+    "es asi\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c0c0eff3-828d-42b6-a85b-763d359cc79c",
+   "metadata": {},
+   "source": [
+    "> esto es una prueba de una cita\n",
+    "esto ya no es una cita o si..."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "47b77fde-ccbd-432a-8fe1-e8e90da07338",
+   "metadata": {},
+   "source": [
+    "> Creo que los animales ven en el hombre un ser igual a ellos que ha perdido de forma extraordinariamente peligrosa el sano intelecto animal.\n",
+    "> Es decir, que ven en él al animal irracional, al animal que ríe, al animal que llora, al animal infeliz. — Friedrich Nietzsche"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7c38d58d-cfdf-4a3a-920f-7fa986ee78bc",
+   "metadata": {},
+   "source": [
+    "> Esto sería una cita como la que acabas de ver.\n",
+    "> \n",
+    "> > Dentro de ella puedes anidar otra cita.\n",
+    "> \n",
+    "> La cita principal llegaría hasta aquí. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f22e31f5-efc4-4e8e-ae34-e631decfe349",
+   "metadata": {},
+   "source": [
+    "- Elemento de lista 1\n",
+    "- Elemento de lista 2\n",
+    "* Elemento de lista 3\n",
+    "* Elemento de lista 4\n",
+    "+ Elemento de lista 5\n",
+    "+ Elemento de lista 6"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "67df87d8-767a-4c25-a44e-0286adaa1244",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f8cec18b-adaa-498e-b450-1cfeca7279c1",
+   "metadata": {},
+   "source": [
+    "* Elemento de lista 1\n",
+    "* Elemento de lista 2\n",
+    "    * Eemento de lista 3\n",
+    "    * Eemento de lista 4\n",
+    "        * Elemento de lista 5\n",
+    "        * Elemento de lista 6"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f11f7213-b79b-47ae-bb16-bae491aecbf7",
+   "metadata": {},
+   "source": [
+    "***"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "73c6059c-74e9-48d1-b6f6-dc8a3081fd66",
+   "metadata": {},
+   "source": [
+    "*negrilla* **cursiva negrilla** _negrilla_"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "54b12e61-58ed-4d06-a751-faac85b408d0",
+   "metadata": {},
+   "source": [
+    "[enlace en línea](http://www.limni.net)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "69ca5e1e-9ac1-4384-9dea-63c598f6afd4",
+   "metadata": {},
+   "source": [
+    "![Texto alternativo](Imágenes/img_logo.png)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "736a551d-6429-42c0-89f2-f0d2148b6605",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hola luis\n"
+     ]
+    }
+   ],
+   "source": [
+    "echo hola luis"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a87479a1-49c9-42a1-b594-e77a7f7542e4",
+   "metadata": {},
+   "source": [
+    "**echo muestra texto salida extandar**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "80782f98-ed43-47ed-a3b5-25731df7926b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Bash",
+   "language": "bash",
+   "name": "bash"
+  },
+  "language_info": {
+   "codemirror_mode": "shell",
+   "file_extension": ".sh",
+   "mimetype": "text/x-sh",
+   "name": "bash"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
